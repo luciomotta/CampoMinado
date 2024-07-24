@@ -48,3 +48,8 @@ function draw() { //Prepara e Inicalizada o Jogo em LOOOP
     noFill();
     rect(0,0, width, height);*/
 }
+
+function mousePressed(){ //Função de clique do mouse
+
+    game.click(mouseX, mouseY);
+};
