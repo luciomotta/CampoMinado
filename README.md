@@ -1,6 +1,5 @@
 # Game Fire: Campo Minado
 
-![Sive]([link-para-imagem-aqui](https://gameminado.netlify.app/))
 
 
 ![Imagem do Jogo](link-para-imagem-aqui)
@@ -22,7 +21,7 @@ Game Fire: Campo Minado é uma reimaginação moderna do clássico jogo de Campo
 - JavaScript: Para lógica de jogo e interações dinâmicas.
 
 ## Como Jogar
-
+- [Site](https://gameminado.netlify.app/)
 1. Abra o jogo no seu navegador.
 2. Clique nas células para revelá-las. Seu objetivo é revelar todas as células sem bombas.
 3. Use as dicas numéricas para evitar as bombas.
