@@ -43,4 +43,4 @@ Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 Contato
 Seu Nome - @seuTwitter
 
-Link do Projeto: https://github.com/seuUsuario/seuRepositorio
+Link do Projeto: [https://github.com/seuUsuario/seuRepositorio](https://gameminado.netlify.app/)
