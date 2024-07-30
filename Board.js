@@ -1,6 +1,6 @@
 class Board{
     constructor(){
-        this.size = 10; // Tamanho do tabuleiro
+        this.size = 15; // Tamanho do tabuleiro
         this.margin = 6;
 
         let s = Math.min(width, height);
