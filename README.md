@@ -1,9 +1,6 @@
 # Game Fire: Campo Minado
 
 
-
-![Imagem do Jogo](link-para-imagem-aqui)
-
 ## Sobre o Projeto
 
 Game Fire: Campo Minado é uma reimaginação moderna do clássico jogo de Campo Minado. Desenvolvido com a biblioteca p5.js, este jogo traz uma interface gráfica intuitiva e uma jogabilidade envolvente, permitindo aos jogadores testarem suas habilidades e estratégias em um ambiente dinâmico e visualmente atraente.
@@ -26,6 +23,8 @@ Game Fire: Campo Minado é uma reimaginação moderna do clássico jogo de Campo
 2. Clique nas células para revelá-las. Seu objetivo é revelar todas as células sem bombas.
 3. Use as dicas numéricas para evitar as bombas.
 4. Clique com o botão direito para marcar uma célula que você suspeita que contenha uma bomba.
+   ![Imagem do Jogo](https://raw.githubusercontent.com/luciomotta/CampoMinado/main/Game.png)
+
 
 ## Instalação
 
@@ -33,8 +32,8 @@ Para jogar Game Fire: Campo Minado localmente, siga estes passos:
 
 1. Clone o repositório para sua máquina local:
 
-```bash
-git clone https://link-para-seu-repositorio.git
+
+git clone: https://github.com/luciomotta/CampoMinado.git
 
 Contribuições
 Contribuições são sempre bem-vindas! Se você tem uma sugestão para melhorar o jogo, sinta-se à vontade para fazer um fork do repositório e criar um pull request. Você também pode simplesmente abrir uma issue com a tag "melhoria".
@@ -43,6 +42,6 @@ Licença
 Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
 Contato
-Seu Nome - @seuTwitter
+Lúcio Motta - @lucioo_motta
 
-Link do Projeto: [https://github.com/seuUsuario/seuRepositorio](https://gameminado.netlify.app/)
+Link do Projeto: (https://gameminado.netlify.app/)
