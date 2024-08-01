@@ -34,7 +34,7 @@ Para jogar Game Fire: Campo Minado localmente, siga estes passos:
 1. Clone o repositório para sua máquina local:
 
 ```bash
-git clone [https://link-para-seu-repositorio.git](https://github.com/luciomotta/CampoMinado.git)
+git clone: https://github.com/luciomotta/CampoMinado.git
 
 Contribuições
 Contribuições são sempre bem-vindas! Se você tem uma sugestão para melhorar o jogo, sinta-se à vontade para fazer um fork do repositório e criar um pull request. Você também pode simplesmente abrir uma issue com a tag "melhoria".
