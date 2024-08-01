@@ -2,7 +2,7 @@
 
 
 
-![Imagem do Jogo](link-para-imagem-aqui)
+![Imagem do Jogo]([link-para-imagem-aqui](https://github.com/luciomotta/CampoMinado/blob/main/Game.png))
 
 ## Sobre o Projeto
 
