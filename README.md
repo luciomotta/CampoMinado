@@ -45,4 +45,4 @@ Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 Contato
 Lúcio Motta - @lucioo_motta
 
-Link do Projeto: [https://github.com/seuUsuario/seuRepositorio](https://gameminado.netlify.app/)
+Link do Projeto: (https://gameminado.netlify.app/)
