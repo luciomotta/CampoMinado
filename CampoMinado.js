@@ -64,15 +64,23 @@ class CampoMinado {
         // Configura o vídeo para ser exibido
         let video = document.getElementById('lampvideo');
         if (video) {
-            video.src = 'src/Explosion.mp4';
+            // Configura o tamanho do vídeo
             video.style.width = this.board.clientWidth + 'px';
             video.style.height = this.board.clientHeight + 'px';
-            video.style.zIndex = '100';
-            video.style.borderRadius = '10px';
+            
+            // Mostra o vídeo com animação
+            video.style.display = 'block';
+            video.classList.add('playing');
+            
+            // Inicia a reprodução
+            video.currentTime = 0; // Reinicia do início
             video.play();
 
             video.onended = () => {
-                video.style.zIndex = '-1';
+                // Esconde o vídeo
+                video.style.display = 'none';
+                video.classList.remove('playing');
+                
                 setTimeout(() => {
                     this.restartGame();
                 }, 1000);
@@ -80,6 +88,9 @@ class CampoMinado {
 
             // Fallback caso o vídeo não carregue
             video.onerror = () => {
+                video.style.display = 'none';
+                video.classList.remove('playing');
+                
                 setTimeout(() => {
                     this.restartGame();
                 }, 2000);

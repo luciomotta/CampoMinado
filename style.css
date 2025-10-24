@@ -42,10 +42,27 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: -1;
+    display: none;
+    z-index: 100;
     border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
     transition: all 0.3s ease;
+}
+
+#lampvideo.playing {
+    display: block;
+    animation: videoAppear 0.3s ease-out;
+}
+
+@keyframes videoAppear {
+    from { 
+        opacity: 0; 
+        transform: translate(-50%, -50%) scale(0.8); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translate(-50%, -50%) scale(1); 
+    }
 }
 
 /* Animações e efeitos */
