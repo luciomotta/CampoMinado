@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Game Fire</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Campo Minado - Jogo responsivo e moderno">
+    <title>Campo Minado | Game Fire</title>
+    
+    <!-- CSS Principal -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- uma biblioteca JavaScript que facilita a criação de gráficos e interações em um navegador.
-      Ela fornece uma série de funções e recursos que simplificam a criação de animações, jogos, visualizações de dados e muito mais. -->
+    
+    <!-- P5.js Library para gráficos e interações -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
-    <!-- A biblioteca p5.sound é um complemento para a biblioteca p5.js que adiciona recursos de áudio 
-     ao seu projeto. Ela permite que você carregue, reproduza e manipule arquivos de áudio, além de criar efeitos sonoros e interações sonoras em seu aplicativo. -->
+    <!-- P5.sound para efeitos sonoros -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Campo Minado">
+    
+    <!-- Performance hints -->
+    <link rel="preload" href="src/Explosion.mp4" as="video" type="video/mp4">
 </head>
-<main>
-
-        
-  <div id="game-container">
-    <script src="Board.js"></script>
-    <script src="Cell.js"></script>
-    <script src="CampoMinado.js"></script>
-    <script src="sketch.js"></script>
-    <video id="lampvideo" src="" style="position: absolute;"></video>
-  </div>
-</main>
+<body>
+    <main>
+        <div id="game-container">
+            <!-- Scripts do jogo -->
+            <script src="Board.js"></script>
+            <script src="Cell.js"></script>
+            <script src="CampoMinado.js"></script>
+            <script src="sketch.js"></script>
+            
+            <!-- Vídeo de explosão -->
+            <video id="lampvideo" preload="auto" muted playsinline style="position: absolute; z-index: -1;">
+                <source src="src/Explosion.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+    </main>
+</body>
 </html>
