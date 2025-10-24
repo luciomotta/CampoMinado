@@ -45,15 +45,25 @@ Game Fire: Campo Minado é uma versão completamente modernizada do clássico jo
 ## 🚀 **Demonstração**
 
 ### **Desktop**
-![Desktop Screenshot](https://via.placeholder.com/800x600/667eea/ffffff?text=Desktop+Version)
-
-### **Mobile**
 <div align="center">
-<img src="https://via.placeholder.com/300x600/667eea/ffffff?text=Mobile+Version" alt="Mobile Screenshot" width="300">
+
 </div>
 
-### **Gameplay**
-![Gameplay GIF](https://via.placeholder.com/600x400/764ba2/ffffff?text=Gameplay+Animation)
+<div align="center">
+<img src="./src/Nova_versao.png" alt="Mobile Screenshot" width="300" style="max-width:100%;height:auto;">
+</div>
+
+</div>
+
+<div align="center">
+<img src="./src/Nova_versao_01.png" alt="Mobile Screenshot" width="300" style="max-width:100%;height:auto;">
+</div>
+
+<div align="center">
+
+![Gameplay](./src/Nova_versao_01.png)
+
+</div>
 
 ---
 
@@ -115,23 +125,6 @@ git clone https://github.com/luciomotta/CampoMinado.git
 # 2. Entre no diretório
 cd CampoMinado
 
-# 3. Abra o arquivo Index.html no navegador
-# Ou use um servidor local como Live Server
-```
-
-### **Servidor Local (Recomendado)**
-```bash
-# Com Python
-python -m http.server 8000
-
-# Com Node.js (npx)
-npx serve .
-
-# Com PHP
-php -S localhost:8000
-```
-
----
 
 ## 📱 **Responsividade**
 
