@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Campo Minado](https://raw.githubusercontent.com/luciomotta/CampoMinado/main/Game.png)
+![Campo Minado](./src/Nova_versao.png)
 
 **Uma reimaginação moderna e responsiva do clássico Campo Minado**
 
@@ -44,24 +44,25 @@ Game Fire: Campo Minado é uma versão completamente modernizada do clássico jo
 
 ## 🚀 **Demonstração**
 
-### **Desktop**
-<div align="center">
-
-</div>
-
-<div align="center">
-<img src="./src/Nova_versao.png" alt="Mobile Screenshot" width="300" style="max-width:100%;height:auto;">
-</div>
-
-</div>
-
-<div align="center">
-<img src="./src/Nova_versao_01.png" alt="Mobile Screenshot" width="300" style="max-width:100%;height:auto;">
-</div>
+### **Interface Moderna do Jogo**
 
 <div align="center">
 
-![Gameplay](./src/Nova_versao_01.png)
+<img src="./src/Nova_versao.png" alt="Campo Minado - Interface Desktop" width="600" style="max-width:100%;height:auto;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+
+**🖥️ Versão Desktop - Design Moderno com Gradientes**
+
+</div>
+
+<br>
+
+### **Gameplay em Ação**
+
+<div align="center">
+
+<img src="./src/Nova_versao_01.png" alt="Campo Minado - Gameplay Mobile" width="600" style="max-width:100%;height:auto;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+
+**📱 Versão Mobile - Totalmente Responsivo**
 
 </div>
 
@@ -125,6 +126,27 @@ git clone https://github.com/luciomotta/CampoMinado.git
 # 2. Entre no diretório
 cd CampoMinado
 
+# 3. Abra o arquivo Index.html em seu navegador
+# Ou use um servidor local:
+
+# Opção 1: Python
+python -m http.server 8000
+
+# Opção 2: Node.js (live-server)
+npx live-server
+
+# Opção 3: VS Code - Live Server Extension
+# Clique com botão direito em Index.html > "Open with Live Server"
+```
+
+### **Estrutura Simples**
+```
+📁 Baixe o projeto
+📄 Abra Index.html
+🎮 Comece a jogar!
+```
+
+---
 
 ## 📱 **Responsividade**
 
@@ -175,8 +197,10 @@ CampoMinado/
 ├── 🏁 Board.js            # Classe do tabuleiro
 ├── 📦 Cell.js             # Classe das células
 ├── 🎬 src/
-│   └── Explosion.mp4      # Vídeo de explosão
-├── 🖼️ Game.png            # Screenshot do jogo
+│   ├── Explosion.mp4      # Vídeo de explosão
+│   ├── Nova_versao.png    # Screenshot desktop
+│   └── Nova_versao_01.png # Screenshot gameplay
+├── 🖼️ Game.png            # Screenshot original
 └── 📖 README.md           # Este arquivo
 ```
 
